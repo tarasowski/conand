@@ -253,26 +253,38 @@ function Presentation() {
             </AnimatedSubtitle>
           </FlexBox>
           
-          <Box margin="0 0 20px 0" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '40px' }}>
+          <Box margin="0 0 20px 0" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '15px' }}>
+            <Box style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '40px' }}>
+              <Text 
+                fontSize="20px" 
+                color="quinary" 
+                style={{ 
+                  fontWeight: 600, 
+                  letterSpacing: '0.02em'
+                }}
+              >
+                Author: Dimitri Tarasowski
+              </Text>
+              <Text 
+                fontSize="20px" 
+                color="quinary" 
+                style={{ 
+                  fontWeight: 600, 
+                  letterSpacing: '0.02em'
+                }}
+              >
+                Date: 28.06.2025
+              </Text>
+            </Box>
             <Text 
-              fontSize="20px" 
-              color="quinary" 
+              fontSize="18px" 
+              color="secondary" 
               style={{ 
                 fontWeight: 600, 
                 letterSpacing: '0.02em'
               }}
             >
-              Author: Dimitri Tarasowski
-            </Text>
-            <Text 
-              fontSize="20px" 
-              color="quinary" 
-              style={{ 
-                fontWeight: 600, 
-                letterSpacing: '0.02em'
-              }}
-            >
-              Date: 28.06.2025
+              conand.mvpfoundry.com
             </Text>
           </Box>
         </FlexBox>
@@ -788,6 +800,9 @@ function Presentation() {
               </Text>
               <Text fontSize="24px" color="secondary" style={{ fontWeight: 600, letterSpacing: '0.02em' }}>
                 dimitri@ext.mvpfoundry.com
+              </Text>
+              <Text fontSize="24px" color="secondary" style={{ fontWeight: 600, letterSpacing: '0.02em' }}>
+                conand.mvpfoundry.com
               </Text>
             </FlexBox>
           </FlexBox>
