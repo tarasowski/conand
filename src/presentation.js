@@ -197,12 +197,12 @@ function Presentation() {
           />
         ))}
         <FlexBox height="100%" flexDirection="column" justifyContent="space-between" alignItems="center" style={{ position: 'relative', zIndex: 1 }}>
-          <Box margin="20px 0 0 0">
+          <Box margin="20px 0 0 0" width="100%">
             <img 
               src="img/logos.png" 
               alt="Conference sponsors"
               style={{ 
-                width: '600px', 
+                width: '100%', 
                 height: 'auto', 
                 opacity: 0.8
               }}
@@ -407,6 +407,27 @@ function Presentation() {
       <Slide backgroundColor="background">
         <FlexBox height="100%" flexDirection="column" justifyContent="center" alignItems="center">
           <Heading fontSize="h2" color="primary" margin="0 0 40px 0" style={{ fontWeight: 700, letterSpacing: '0.02em' }}>
+            Then This Happened
+          </Heading>
+          <Box margin="0 0 20px 0">
+            <img 
+              src="img/claude-code-max.jpg" 
+              alt="Claude Code Max announcement"
+              style={{ 
+                width: '600px', 
+                height: 'auto', 
+                borderRadius: '8px',
+                border: '2px solid #84cc16',
+                boxShadow: '0 10px 30px rgba(132, 204, 22, 0.3)'
+              }}
+            />
+          </Box>
+        </FlexBox>
+      </Slide>
+
+      <Slide backgroundColor="background">
+        <FlexBox height="100%" flexDirection="column" justifyContent="center" alignItems="center">
+          <Heading fontSize="h2" color="primary" margin="0 0 40px 0" style={{ fontWeight: 700, letterSpacing: '0.02em' }}>
             This is how it all started
           </Heading>
           <Box margin="0 0 20px 0">
@@ -479,17 +500,14 @@ function Presentation() {
       <Slide backgroundColor="background">
         <FlexBox height="100%" flexDirection="column" justifyContent="center" alignItems="center">
           <Heading fontSize="h2" color="primary" margin="0 0 40px 0" style={{ fontWeight: 700, letterSpacing: '0.02em' }}>
-            But I didn't stop using Claude Code
+            Claude Code in Action
           </Heading>
-          <Text fontSize="text" color="secondary" margin="0 0 40px 0" style={{ fontWeight: 700, letterSpacing: '0.02em' }}>
-            They just released Claude Code Max for $200/month
-          </Text>
           <Box margin="0 0 20px 0">
             <img 
-              src="img/claude-code-max.jpg" 
-              alt="Claude Code Max announcement"
+              src="img/claude-code-real.png" 
+              alt="Claude Code real usage screenshot"
               style={{ 
-                width: '600px', 
+                width: '800px', 
                 height: 'auto', 
                 borderRadius: '8px',
                 border: '2px solid #84cc16',
@@ -497,8 +515,8 @@ function Presentation() {
               }}
             />
           </Box>
-          <Text fontSize="text" color="quinary" style={{ fontWeight: 700, letterSpacing: '0.02em' }}>
-            The evolution continues...
+          <Text fontSize="24px" color="quinary" style={{ fontWeight: 700, letterSpacing: '0.02em' }}>
+            Just did some changes to the presentation 20 minutes ago
           </Text>
         </FlexBox>
       </Slide>
